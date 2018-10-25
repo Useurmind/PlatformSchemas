@@ -1,0 +1,85 @@
+{
+  "type": ["object"],
+  "properties": {
+    "name": {
+      "type": ["string", "null"]
+    },
+    "autoGenerateMessage": {
+      "type": ["boolean"]
+    },
+    "isPublic": {},
+    "version": {
+      "type": ["string", "null"]
+    },
+    "developerComment": {
+      "type": ["string", "null"]
+    },
+    "properties": {
+      "type": ["array"],
+      "items": {
+        "type": ["object"],
+        "properties": {
+          "name": {
+            "type": ["string", "null"]
+          },
+          "caption": {
+            "type": ["string", "null"]
+          },
+          "developerComment": {
+            "type": ["string", "null"]
+          },
+          "referenceTypeName": {
+            "type": ["string", "null"]
+          },
+          "defaultValueJson": {
+            "type": ["string", "null"]
+          },
+          "isPrimaryKey": {
+            "type": ["boolean"]
+          },
+          "isReadOnly": {
+            "type": ["boolean"]
+          },
+          "isRequired": {
+            "type": ["boolean"]
+          },
+          "isSearchable": {
+            "type": ["boolean"]
+          },
+          "isUnique": {
+            "type": ["boolean"]
+          },
+          "type": {
+            "type": ["string"],
+            "enum": [
+              "boolean",
+              "string",
+              "int32",
+              "int64",
+              "float32",
+              "float64",
+              "guid",
+              "date",
+              "dateTime",
+              "binary",
+              "reference",
+              "referenceCollection",
+              "enum"
+            ]
+          }
+        }
+      }
+    },
+    "topics": {
+      "type": ["array"],
+      "items": {
+        "type": ["object"],
+        "properties": {
+          "topicName": {
+            "type": ["string", "null"]
+          }
+        }
+      }
+    }
+  }
+}

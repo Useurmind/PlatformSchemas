@@ -1,0 +1,28 @@
+{
+  "type": ["object"],
+  "properties": {
+    "caption": {
+      "type": ["string", "null"]
+    },
+    "friendlyNameTypescriptFunction": {
+      "type": ["string", "null"]
+    },
+    "isDefaultSelectionView": {
+      "type": ["boolean"]
+    },
+    "viewFields": {
+      "type": ["array"],
+      "items": {
+        "type": ["object"],
+        "properties": {
+          "caption": {
+            "type": ["string", "null"]
+          },
+          "expression": {
+            "type": ["string", "null"]
+          }
+        }
+      }
+    }
+  }
+}

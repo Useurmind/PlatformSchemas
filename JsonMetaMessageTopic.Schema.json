@@ -1,0 +1,8 @@
+{
+  "type": ["object"],
+  "properties": {
+    "topicName": {
+      "type": ["string", "null"]
+    }
+  }
+}

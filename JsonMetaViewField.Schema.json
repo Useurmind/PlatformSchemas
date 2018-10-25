@@ -1,0 +1,11 @@
+{
+  "type": ["object"],
+  "properties": {
+    "caption": {
+      "type": ["string", "null"]
+    },
+    "expression": {
+      "type": ["string", "null"]
+    }
+  }
+}

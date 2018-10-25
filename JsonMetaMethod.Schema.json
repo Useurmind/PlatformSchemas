@@ -1,0 +1,123 @@
+{
+  "type": ["object"],
+  "properties": {
+    "caption": {
+      "type": ["string", "null"]
+    },
+    "developerComment": {
+      "type": ["string", "null"]
+    },
+    "parameters": {
+      "type": ["array"],
+      "items": {
+        "type": ["object"],
+        "properties": {
+          "name": {
+            "type": ["string", "null"]
+          },
+          "caption": {
+            "type": ["string", "null"]
+          },
+          "developerComment": {
+            "type": ["string", "null"]
+          },
+          "referenceTypeName": {
+            "type": ["string", "null"]
+          },
+          "defaultValueJson": {
+            "type": ["string", "null"]
+          },
+          "isPrimaryKey": {
+            "type": ["boolean"]
+          },
+          "isReadOnly": {
+            "type": ["boolean"]
+          },
+          "isRequired": {
+            "type": ["boolean"]
+          },
+          "isSearchable": {
+            "type": ["boolean"]
+          },
+          "isUnique": {
+            "type": ["boolean"]
+          },
+          "type": {
+            "type": ["string"],
+            "enum": [
+              "boolean",
+              "string",
+              "int32",
+              "int64",
+              "float32",
+              "float64",
+              "guid",
+              "date",
+              "dateTime",
+              "binary",
+              "reference",
+              "referenceCollection",
+              "enum"
+            ]
+          }
+        }
+      }
+    },
+    "returnValues": {
+      "type": ["array"],
+      "items": {
+        "type": ["object"],
+        "properties": {
+          "name": {
+            "type": ["string", "null"]
+          },
+          "caption": {
+            "type": ["string", "null"]
+          },
+          "developerComment": {
+            "type": ["string", "null"]
+          },
+          "referenceTypeName": {
+            "type": ["string", "null"]
+          },
+          "defaultValueJson": {
+            "type": ["string", "null"]
+          },
+          "isPrimaryKey": {
+            "type": ["boolean"]
+          },
+          "isReadOnly": {
+            "type": ["boolean"]
+          },
+          "isRequired": {
+            "type": ["boolean"]
+          },
+          "isSearchable": {
+            "type": ["boolean"]
+          },
+          "isUnique": {
+            "type": ["boolean"]
+          },
+          "type": {
+            "type": ["string"],
+            "enum": [
+              "boolean",
+              "string",
+              "int32",
+              "int64",
+              "float32",
+              "float64",
+              "guid",
+              "date",
+              "dateTime",
+              "binary",
+              "reference",
+              "referenceCollection",
+              "enum"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

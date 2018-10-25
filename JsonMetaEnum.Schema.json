@@ -1,0 +1,31 @@
+{
+  "type": ["object"],
+  "properties": {
+    "caption": {
+      "type": ["string", "null"]
+    },
+    "developerComment": {
+      "type": ["string", "null"]
+    },
+    "enumValues": {
+      "type": ["array"],
+      "items": {
+        "type": ["object"],
+        "properties": {
+          "caption": {
+            "type": ["string", "null"]
+          },
+          "developerComment": {
+            "type": ["string", "null"]
+          },
+          "value": {
+            "type": ["integer"]
+          },
+          "name": {
+            "type": ["string", "null"]
+          }
+        }
+      }
+    }
+  }
+}

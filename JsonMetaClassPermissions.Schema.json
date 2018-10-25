@@ -1,0 +1,31 @@
+{
+  "type": ["object"],
+  "properties": {
+    "permissions": {
+      "type": ["array"],
+      "items": {
+        "type": ["object"],
+        "properties": {
+          "roles": {
+            "type": ["array"],
+            "items": {
+              "type": ["string", "null"]
+            }
+          },
+          "views": {
+            "type": ["array"],
+            "items": {
+              "type": ["string", "null"]
+            }
+          },
+          "methods": {
+            "type": ["array"],
+            "items": {
+              "type": ["string", "null"]
+            }
+          }
+        }
+      }
+    }
+  }
+}
